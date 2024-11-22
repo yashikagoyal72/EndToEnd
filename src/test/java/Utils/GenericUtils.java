@@ -3,11 +3,12 @@ package Utils;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GenericUtils {
-	public ChromeDriver driver;
-	public GenericUtils(ChromeDriver driver) {
+	public WebDriver driver;
+	public GenericUtils(WebDriver driver) {
 		
 		this.driver=driver;
 	}

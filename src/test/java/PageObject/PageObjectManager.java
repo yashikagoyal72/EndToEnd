@@ -1,5 +1,6 @@
 package PageObject;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
@@ -9,11 +10,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class PageObjectManager {
 
 	public LandingPage landingpage;
-	public ChromeDriver driver;
+	public WebDriver driver;
 	public OffersPage offerspage;
 	public CheckoutPage checkoutpage;
 	
-	public PageObjectManager(ChromeDriver driver) {
+	public PageObjectManager(WebDriver driver) {
 		this.driver = driver;
 		
 	}

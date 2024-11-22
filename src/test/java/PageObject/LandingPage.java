@@ -1,12 +1,13 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import Utils.TestContextSetup;
 
 public class LandingPage {
-	public ChromeDriver driver;
+	public WebDriver driver;
 	
 	By search = By.xpath("//input[@placeholder='Search for Vegetables and Fruits']");
 	By productname= By.cssSelector("h4[class='product-name']");
@@ -16,7 +17,7 @@ public class LandingPage {
 	
 	
 	
-	public LandingPage(ChromeDriver driver) {
+	public LandingPage(WebDriver driver) {
 		
 		this.driver=driver;
 	}

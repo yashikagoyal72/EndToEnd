@@ -1,12 +1,13 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CheckoutPage {
 	
-	public ChromeDriver driver;
-	public CheckoutPage(ChromeDriver driver) {
+	public WebDriver driver;
+	public CheckoutPage(WebDriver driver) {
 		
 		this.driver = driver;
 	}

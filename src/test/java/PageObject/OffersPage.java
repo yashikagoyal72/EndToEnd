@@ -1,12 +1,13 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OffersPage {
 
-	public ChromeDriver driver;
-	public OffersPage(ChromeDriver driver) {
+	public WebDriver driver;
+	public OffersPage(WebDriver driver) {
 		
 		this.driver=driver;
 	}
