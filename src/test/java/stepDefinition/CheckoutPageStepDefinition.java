@@ -17,6 +17,7 @@ public class CheckoutPageStepDefinition {
 		this.testcontextsetup = testcontextsetup;
 	}
 	
+	
 	@And("user add three products into the Cart")
 	public void user_add_three_products_into_the_cart() {
 	    

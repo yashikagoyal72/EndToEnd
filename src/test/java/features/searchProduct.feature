@@ -1,6 +1,6 @@
 Feature:Place the order for Products
 
-@SearchProduct
+@SearchProduct 
 Scenario Outline: Search Experience for product search in both home page and offers Page
 
 Given User is on Green Cart landing page
