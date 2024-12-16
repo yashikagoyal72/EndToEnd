@@ -3,10 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="stepDefinition.Hooks"/>
-      <class name="Utils.GenericUtils"/>
-      <class name="stepDefinition.LandingPageStepDefinition"/>
-      <class name="Utils.TestBase"/>
+      <class name="cucumberOptions.TestNGTestRunner"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

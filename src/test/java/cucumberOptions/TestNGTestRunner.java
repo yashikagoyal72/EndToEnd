@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features="src/test/java/features",
                  glue="stepDefinition",
                  monochrome = true,
-                 tags = "PlaceOrder or @SearchProduct",
+                 tags = "@PlaceOrder @SearchProduct",
                 plugin = {"html:target/cucumber.html",
                 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 //"rerun:target/failedscenario.txt"
